@@ -15,7 +15,7 @@
                 <include name="getUser_Id"/>
             </methods>
         </class>
-        <class name="Config.configTest">
+        <class name="Pages.configTest">
 
         </class>
 
@@ -31,7 +31,7 @@
 
            <class name="Vod_T.Vod_search">
            </class>
-           <class name="Config.configTest">
+           <class name="Pages.configTest">
 
            </class>
 
@@ -49,7 +49,7 @@
            <class name="Vod_T.Vod_search">
 
            </class>
-           <class name="Config.configTest">
+           <class name="Pages.configTest">
 
            </class>
 
@@ -67,7 +67,7 @@
 
            <class name="Vod_T.Vod_search">
            </class>
-           <class name="Config.configTest">
+           <class name="Pages.configTest">
            </class>
 
        </classes>

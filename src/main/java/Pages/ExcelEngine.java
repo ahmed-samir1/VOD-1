@@ -1,4 +1,4 @@
-package Config;
+package Pages;
 
 
 import java.io.File;

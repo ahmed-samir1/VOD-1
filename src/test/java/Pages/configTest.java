@@ -1,4 +1,4 @@
-package Config;
+package Pages;
 
 import Base.BaseTest;
 import com.relevantcodes.extentreports.ExtentReports;
