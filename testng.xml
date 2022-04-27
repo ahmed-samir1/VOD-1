@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" thread-count="1" parallel="tests" >
+
+    <listeners>
+        <listener class-name="retryAnalyzer.RetryTransformer" />
+    </listeners>
+
+<test name="API">
+    <classes>
+
+        <class name="Vod_API.Vod_API">
+            <methods>
+                <include name="userPost"/>
+                <include name="getUser_Id"/>
+            </methods>
+        </class>
+        <class name="Config.configTest">
+
+        </class>
+
+    </classes>
+
+</test>
+    <test name="ChromeTest">
+
+       <parameter name="browser" value="chrome"></parameter>
+       <parameter name="url" value="https://www.youtube.com/"></parameter>
+
+       <classes>
+
+           <class name="Vod_T.Vod_search">
+           </class>
+           <class name="Config.configTest">
+
+           </class>
+
+       </classes>
+
+   </test>
+
+   <test name="FirefoxTest">
+
+       <parameter name="browser" value="Firefox" />
+       <parameter name="url" value="https://www.youtube.com/"></parameter>
+
+       <classes>
+
+           <class name="Vod_T.Vod_search">
+
+           </class>
+           <class name="Config.configTest">
+
+           </class>
+
+       </classes>
+
+   </test>
+
+   <test name="EdgeTest">
+
+       <parameter name="browser" value="Edge" />
+       <parameter name="url" value="https://www.youtube.com/"></parameter>
+
+
+       <classes>
+
+           <class name="Vod_T.Vod_search">
+           </class>
+           <class name="Config.configTest">
+           </class>
+
+       </classes>
+
+   </test>
+
+</suite>

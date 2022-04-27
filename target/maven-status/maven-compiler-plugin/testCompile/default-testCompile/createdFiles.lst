@@ -1,0 +1,6 @@
+Pages\configTest.class
+Pages\SubmitTicketTest.class
+Base\BaseTest.class
+Pages\AppTest.class
+Pages\creatAlertTest.class
+Pages\uploadBomTest.class

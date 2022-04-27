@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="21" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-15T17:23:25 EET" name="All Pages Suite" finished-at="2021-11-15T17:26:09 EET" duration-ms="164235">
+    <groups>
+    </groups>
+    <test started-at="2021-11-15T17:23:25 EET" name="com.Orang" finished-at="2021-11-15T17:26:09 EET" duration-ms="164235">
+      <class name="Pages.AppTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:25 EET" name="setUp" finished-at="2021-11-15T17:23:43 EET" duration-ms="17981" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://test1.z2data.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:43 EET" name="start" finished-at="2021-11-15T17:23:43 EET" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Pages.AppTest.navigateToPartRiskPage(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="navigateToPartRiskPage(java.lang.reflect.Method)[pri:1, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:43 EET" name="navigateToPartRiskPage" finished-at="2021-11-15T17:23:46 EET" duration-ms="2545" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Pages.AppTest.navigateToPartRiskPage(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToPartRiskPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:46 EET" name="tearDown" finished-at="2021-11-15T17:23:46 EET" duration-ms="267" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigateToPartRiskPage status=SUCCESS method=AppTest.navigateToPartRiskPage(java.lang.reflect.Method)[pri:1, instance:Pages.AppTest@2b91004a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="get_MAN_MPN_Part_Details(java.lang.reflect.Method)[pri:2, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:46 EET" name="get_MAN_MPN_Part_Details" finished-at="2021-11-15T17:23:50 EET" duration-ms="4101" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Pages.AppTest.get_MAN_MPN_Part_Details(java.lang.reflect.Method) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_MAN_MPN_Part_Details -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:46 EET" name="start" finished-at="2021-11-15T17:23:46 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Pages.AppTest.get_MAN_MPN_Part_Details(java.lang.reflect.Method) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:50 EET" name="tearDown" finished-at="2021-11-15T17:23:50 EET" duration-ms="246" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=get_MAN_MPN_Part_Details status=SUCCESS method=AppTest.get_MAN_MPN_Part_Details(java.lang.reflect.Method)[pri:2, instance:Pages.AppTest@2b91004a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:50 EET" name="start" finished-at="2021-11-15T17:23:50 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Pages.AppTest.get_MPN_Part_Details(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="get_MPN_Part_Details(java.lang.reflect.Method)[pri:3, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:50 EET" name="get_MPN_Part_Details" finished-at="2021-11-15T17:23:50 EET" duration-ms="52" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Pages.AppTest.get_MPN_Part_Details(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_MPN_Part_Details -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:50 EET" name="tearDown" finished-at="2021-11-15T17:23:51 EET" duration-ms="280" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=get_MPN_Part_Details status=SUCCESS method=AppTest.get_MPN_Part_Details(java.lang.reflect.Method)[pri:3, instance:Pages.AppTest@2b91004a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="cardTagsExistInOverview(java.lang.reflect.Method)[pri:5, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:51 EET" name="cardTagsExistInOverview" finished-at="2021-11-15T17:23:51 EET" duration-ms="72" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Pages.AppTest.cardTagsExistInOverview(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cardTagsExistInOverview -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:51 EET" name="start" finished-at="2021-11-15T17:23:51 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Pages.AppTest.cardTagsExistInOverview(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:51 EET" name="tearDown" finished-at="2021-11-15T17:23:51 EET" duration-ms="238" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cardTagsExistInOverview status=SUCCESS method=AppTest.cardTagsExistInOverview(java.lang.reflect.Method)[pri:5, instance:Pages.AppTest@2b91004a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="cardPartScoreExistInOverview(java.lang.reflect.Method)[pri:6, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:51 EET" name="cardPartScoreExistInOverview" finished-at="2021-11-15T17:23:51 EET" duration-ms="56" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Pages.AppTest.cardPartScoreExistInOverview(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cardPartScoreExistInOverview -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:51 EET" name="start" finished-at="2021-11-15T17:23:51 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Pages.AppTest.cardPartScoreExistInOverview(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:51 EET" name="tearDown" finished-at="2021-11-15T17:23:51 EET" duration-ms="188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cardPartScoreExistInOverview status=SUCCESS method=AppTest.cardPartScoreExistInOverview(java.lang.reflect.Method)[pri:6, instance:Pages.AppTest@2b91004a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:51 EET" name="start" finished-at="2021-11-15T17:23:51 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Pages.AppTest.cardObsolescenceExistInOverview(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="cardObsolescenceExistInOverview(java.lang.reflect.Method)[pri:7, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:51 EET" name="cardObsolescenceExistInOverview" finished-at="2021-11-15T17:23:51 EET" duration-ms="159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Pages.AppTest.cardObsolescenceExistInOverview(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cardObsolescenceExistInOverview -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:51 EET" name="tearDown" finished-at="2021-11-15T17:23:52 EET" duration-ms="257" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cardObsolescenceExistInOverview status=SUCCESS method=AppTest.cardObsolescenceExistInOverview(java.lang.reflect.Method)[pri:7, instance:Pages.AppTest@2b91004a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="cardPartSummaryExistInOverview(java.lang.reflect.Method)[pri:8, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:52 EET" name="cardPartSummaryExistInOverview" finished-at="2021-11-15T17:23:52 EET" duration-ms="53" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Pages.AppTest.cardPartSummaryExistInOverview(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cardPartSummaryExistInOverview -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:52 EET" name="start" finished-at="2021-11-15T17:23:52 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Pages.AppTest.cardPartSummaryExistInOverview(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:52 EET" name="tearDown" finished-at="2021-11-15T17:23:52 EET" duration-ms="196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cardPartSummaryExistInOverview status=SUCCESS method=AppTest.cardPartSummaryExistInOverview(java.lang.reflect.Method)[pri:8, instance:Pages.AppTest@2b91004a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="cardComplianceExistInOverview(java.lang.reflect.Method)[pri:9, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:52 EET" name="cardComplianceExistInOverview" finished-at="2021-11-15T17:23:52 EET" duration-ms="76" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Pages.AppTest.cardComplianceExistInOverview(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cardComplianceExistInOverview -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:52 EET" name="start" finished-at="2021-11-15T17:23:52 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Pages.AppTest.cardComplianceExistInOverview(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:52 EET" name="tearDown" finished-at="2021-11-15T17:23:52 EET" duration-ms="220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cardComplianceExistInOverview status=SUCCESS method=AppTest.cardComplianceExistInOverview(java.lang.reflect.Method)[pri:9, instance:Pages.AppTest@2b91004a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="cardMarketAvalibiltyExistInOverview(java.lang.reflect.Method)[pri:10, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:52 EET" name="cardMarketAvalibiltyExistInOverview" finished-at="2021-11-15T17:23:52 EET" duration-ms="59" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Pages.AppTest.cardMarketAvalibiltyExistInOverview(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cardMarketAvalibiltyExistInOverview -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:52 EET" name="start" finished-at="2021-11-15T17:23:52 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Pages.AppTest.cardMarketAvalibiltyExistInOverview(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:52 EET" name="tearDown" finished-at="2021-11-15T17:23:53 EET" duration-ms="208" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cardMarketAvalibiltyExistInOverview status=SUCCESS method=AppTest.cardMarketAvalibiltyExistInOverview(java.lang.reflect.Method)[pri:10, instance:Pages.AppTest@2b91004a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="cardMulitSourceExistInOverview(java.lang.reflect.Method)[pri:11, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:53 EET" name="cardMulitSourceExistInOverview" finished-at="2021-11-15T17:23:55 EET" duration-ms="2173" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Pages.AppTest.cardMulitSourceExistInOverview(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cardMulitSourceExistInOverview -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:53 EET" name="start" finished-at="2021-11-15T17:23:53 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Pages.AppTest.cardMulitSourceExistInOverview(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:55 EET" name="tearDown" finished-at="2021-11-15T17:23:55 EET" duration-ms="218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cardMulitSourceExistInOverview status=SUCCESS method=AppTest.cardMulitSourceExistInOverview(java.lang.reflect.Method)[pri:11, instance:Pages.AppTest@2b91004a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:55 EET" name="start" finished-at="2021-11-15T17:23:55 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Pages.AppTest.PartScoreExistInOverview(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="PartScoreExistInOverview(java.lang.reflect.Method)[pri:12, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:55 EET" name="PartScoreExistInOverview" finished-at="2021-11-15T17:23:55 EET" duration-ms="77" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Pages.AppTest.PartScoreExistInOverview(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PartScoreExistInOverview -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:55 EET" name="tearDown" finished-at="2021-11-15T17:23:55 EET" duration-ms="234" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PartScoreExistInOverview status=SUCCESS method=AppTest.PartScoreExistInOverview(java.lang.reflect.Method)[pri:12, instance:Pages.AppTest@2b91004a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ObsolescenceRisk_PartScorecard(java.lang.reflect.Method)[pri:13, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:55 EET" name="ObsolescenceRisk_PartScorecard" finished-at="2021-11-15T17:23:55 EET" duration-ms="92" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Pages.AppTest.ObsolescenceRisk_PartScorecard(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ObsolescenceRisk_PartScorecard -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:55 EET" name="start" finished-at="2021-11-15T17:23:55 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Pages.AppTest.ObsolescenceRisk_PartScorecard(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:55 EET" name="tearDown" finished-at="2021-11-15T17:23:56 EET" duration-ms="236" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ObsolescenceRisk_PartScorecard status=SUCCESS method=AppTest.ObsolescenceRisk_PartScorecard(java.lang.reflect.Method)[pri:13, instance:Pages.AppTest@2b91004a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ComplianceRisk_PartScorecard(java.lang.reflect.Method)[pri:14, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:56 EET" name="ComplianceRisk_PartScorecard" finished-at="2021-11-15T17:23:56 EET" duration-ms="63" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Pages.AppTest.ComplianceRisk_PartScorecard(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ComplianceRisk_PartScorecard -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:56 EET" name="start" finished-at="2021-11-15T17:23:56 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Pages.AppTest.ComplianceRisk_PartScorecard(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:56 EET" name="tearDown" finished-at="2021-11-15T17:23:56 EET" duration-ms="219" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ComplianceRisk_PartScorecard status=SUCCESS method=AppTest.ComplianceRisk_PartScorecard(java.lang.reflect.Method)[pri:14, instance:Pages.AppTest@2b91004a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="MarketRisk_PartScorecard(java.lang.reflect.Method)[pri:15, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:56 EET" name="MarketRisk_PartScorecard" finished-at="2021-11-15T17:23:56 EET" duration-ms="93" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Pages.AppTest.MarketRisk_PartScorecard(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MarketRisk_PartScorecard -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:56 EET" name="start" finished-at="2021-11-15T17:23:56 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Pages.AppTest.MarketRisk_PartScorecard(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:56 EET" name="tearDown" finished-at="2021-11-15T17:23:56 EET" duration-ms="203" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MarketRisk_PartScorecard status=SUCCESS method=AppTest.MarketRisk_PartScorecard(java.lang.reflect.Method)[pri:15, instance:Pages.AppTest@2b91004a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:56 EET" name="start" finished-at="2021-11-15T17:23:56 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Pages.AppTest.TechnologyRisk_PartScorecard(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="TechnologyRisk_PartScorecard(java.lang.reflect.Method)[pri:16, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:56 EET" name="TechnologyRisk_PartScorecard" finished-at="2021-11-15T17:23:56 EET" duration-ms="79" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Pages.AppTest.TechnologyRisk_PartScorecard(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TechnologyRisk_PartScorecard -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:56 EET" name="tearDown" finished-at="2021-11-15T17:23:56 EET" duration-ms="218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TechnologyRisk_PartScorecard status=SUCCESS method=AppTest.TechnologyRisk_PartScorecard(java.lang.reflect.Method)[pri:16, instance:Pages.AppTest@2b91004a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:56 EET" name="start" finished-at="2021-11-15T17:23:56 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Pages.AppTest.MultiSourcingRisk_PartScorecard(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="MultiSourcingRisk_PartScorecard(java.lang.reflect.Method)[pri:17, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:56 EET" name="MultiSourcingRisk_PartScorecard" finished-at="2021-11-15T17:23:57 EET" duration-ms="81" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Pages.AppTest.MultiSourcingRisk_PartScorecard(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MultiSourcingRisk_PartScorecard -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:57 EET" name="tearDown" finished-at="2021-11-15T17:23:57 EET" duration-ms="247" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MultiSourcingRisk_PartScorecard status=SUCCESS method=AppTest.MultiSourcingRisk_PartScorecard(java.lang.reflect.Method)[pri:17, instance:Pages.AppTest@2b91004a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="SupplierScoreRisk_PartScorecard(java.lang.reflect.Method)[pri:18, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:57 EET" name="SupplierScoreRisk_PartScorecard" finished-at="2021-11-15T17:23:57 EET" duration-ms="54" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Pages.AppTest.SupplierScoreRisk_PartScorecard(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SupplierScoreRisk_PartScorecard -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:57 EET" name="start" finished-at="2021-11-15T17:23:57 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Pages.AppTest.SupplierScoreRisk_PartScorecard(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:57 EET" name="tearDown" finished-at="2021-11-15T17:23:57 EET" duration-ms="243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SupplierScoreRisk_PartScorecard status=SUCCESS method=AppTest.SupplierScoreRisk_PartScorecard(java.lang.reflect.Method)[pri:18, instance:Pages.AppTest@2b91004a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Pages.AppTest@2b91004a]" started-at="2021-11-15T17:23:57 EET" name="tearDown" finished-at="2021-11-15T17:23:59 EET" duration-ms="1922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Pages.AppTest -->
+      <class name="Pages.SubmitTicketTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages.SubmitTicketTest@169e6180]" started-at="2021-11-15T17:25:48 EET" name="setUp" finished-at="2021-11-15T17:26:04 EET" duration-ms="16084" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://test1.z2data.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:Pages.SubmitTicketTest@169e6180]" started-at="2021-11-15T17:26:04 EET" name="start" finished-at="2021-11-15T17:26:04 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Pages.SubmitTicketTest.Validate_can_Submit_Ticket(java.lang.reflect.Method) throws java.awt.AWTException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="Validate_can_Submit_Ticket(java.lang.reflect.Method)[pri:0, instance:Pages.SubmitTicketTest@169e6180]" started-at="2021-11-15T17:26:04 EET" name="Validate_can_Submit_Ticket" finished-at="2021-11-15T17:26:08 EET" duration-ms="4018" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Pages.SubmitTicketTest.Validate_can_Submit_Ticket(java.lang.reflect.Method) throws java.awt.AWTException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_can_Submit_Ticket -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Pages.SubmitTicketTest@169e6180]" started-at="2021-11-15T17:26:08 EET" name="tearDown" finished-at="2021-11-15T17:26:08 EET" duration-ms="310" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Validate_can_Submit_Ticket status=SUCCESS method=SubmitTicketTest.Validate_can_Submit_Ticket(java.lang.reflect.Method)[pri:0, instance:Pages.SubmitTicketTest@169e6180] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Pages.SubmitTicketTest@169e6180]" started-at="2021-11-15T17:26:08 EET" name="tearDown" finished-at="2021-11-15T17:26:09 EET" duration-ms="1507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Pages.SubmitTicketTest -->
+      <class name="Pages.uploadBomTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages.uploadBomTest@20ccf40b]" started-at="2021-11-15T17:23:59 EET" name="setUp" finished-at="2021-11-15T17:24:14 EET" duration-ms="15481" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://test1.z2data.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:Pages.uploadBomTest@20ccf40b]" started-at="2021-11-15T17:24:14 EET" name="start" finished-at="2021-11-15T17:24:14 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Pages.uploadBomTest.uploadBom(java.lang.reflect.Method) throws java.lang.InterruptedException,java.awt.AWTException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="uploadBom(java.lang.reflect.Method)[pri:0, instance:Pages.uploadBomTest@20ccf40b]" started-at="2021-11-15T17:24:14 EET" name="uploadBom" finished-at="2021-11-15T17:25:14 EET" duration-ms="59916" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Pages.uploadBomTest.uploadBom(java.lang.reflect.Method) throws java.lang.InterruptedException,java.awt.AWTException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadBom -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Pages.uploadBomTest@20ccf40b]" started-at="2021-11-15T17:25:14 EET" name="tearDown" finished-at="2021-11-15T17:25:15 EET" duration-ms="811" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=uploadBom status=SUCCESS method=uploadBomTest.uploadBom(java.lang.reflect.Method)[pri:0, instance:Pages.uploadBomTest@20ccf40b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Pages.uploadBomTest@20ccf40b]" started-at="2021-11-15T17:25:15 EET" name="tearDown" finished-at="2021-11-15T17:25:16 EET" duration-ms="1212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Pages.uploadBomTest -->
+      <class name="Pages.configTest">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:Pages.configTest@56cdfb3b]" started-at="2021-11-15T17:23:25 EET" name="setExtent" finished-at="2021-11-15T17:23:25 EET" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:Pages.configTest@56cdfb3b]" started-at="2021-11-15T17:26:10 EET" name="endReport" finished-at="2021-11-15T17:26:10 EET" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- Pages.configTest -->
+      <class name="Pages.creatAlertTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages.creatAlertTest@2fb3536e]" started-at="2021-11-15T17:25:16 EET" name="setUp" finished-at="2021-11-15T17:25:34 EET" duration-ms="17787" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://test1.z2data.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="create_Alert_from_Header(java.lang.reflect.Method)[pri:0, instance:Pages.creatAlertTest@2fb3536e]" started-at="2021-11-15T17:25:34 EET" name="create_Alert_from_Header" finished-at="2021-11-15T17:25:46 EET" duration-ms="12056" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Pages.creatAlertTest.create_Alert_from_Header(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_Alert_from_Header -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:Pages.creatAlertTest@2fb3536e]" started-at="2021-11-15T17:25:34 EET" name="start" finished-at="2021-11-15T17:25:34 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Pages.creatAlertTest.create_Alert_from_Header(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Pages.creatAlertTest@2fb3536e]" started-at="2021-11-15T17:25:46 EET" name="tearDown" finished-at="2021-11-15T17:25:46 EET" duration-ms="174" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=create_Alert_from_Header status=SUCCESS method=creatAlertTest.create_Alert_from_Header(java.lang.reflect.Method)[pri:0, instance:Pages.creatAlertTest@2fb3536e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Pages.creatAlertTest@2fb3536e]" started-at="2021-11-15T17:25:46 EET" name="tearDown" finished-at="2021-11-15T17:25:48 EET" duration-ms="1139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Pages.creatAlertTest -->
+    </test> <!-- com.Orang -->
+  </suite> <!-- All Pages Suite -->
+</testng-results>

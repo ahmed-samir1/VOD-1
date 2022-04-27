@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-All_Pages_Suite" class="navigator-link">
+              <span class="suite-name border-passed">All Pages Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-All_Pages_Suite" class="navigator-link ">
+                    <span>C:\Users\ahmed.mahdy\Downloads\com.demo.selenium-master\Excel\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-All_Pages_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-All_Pages_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-All_Pages_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-All_Pages_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-All_Pages_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-All_Pages_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods,   20 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-All_Pages_Suite" class="hide-methods passed suite-All_Pages_Suite"> (hide)</a> <!-- hide-methods passed suite-All_Pages_Suite -->
+                      <a href="#" panel-name="suite-All_Pages_Suite" class="show-methods passed suite-All_Pages_Suite"> (show)</a> <!-- show-methods passed suite-All_Pages_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-All_Pages_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Pages_Suite" title="Pages.AppTest" class="method navigator-link" hash-for-method="ComplianceRisk_PartScorecard(public void Pages.AppTest.ComplianceRisk_PartScorecard(java.lang.reflect.Method) throws java.io.IOEx...)">ComplianceRisk_PartScorecard(public void Pages.AppTest.ComplianceRisk_PartScorecard(java.lang.reflect.Method) throws java.io.IOEx...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Pages_Suite" title="Pages.AppTest" class="method navigator-link" hash-for-method="MarketRisk_PartScorecard(public void Pages.AppTest.MarketRisk_PartScorecard(java.lang.reflect.Method) throws java.io.IOExcept...)">MarketRisk_PartScorecard(public void Pages.AppTest.MarketRisk_PartScorecard(java.lang.reflect.Method) throws java.io.IOExcept...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Pages_Suite" title="Pages.AppTest" class="method navigator-link" hash-for-method="MultiSourcingRisk_PartScorecard(public void Pages.AppTest.MultiSourcingRisk_PartScorecard(java.lang.reflect.Method) throws java.io.I...)">MultiSourcingRisk_PartScorecard(public void Pages.AppTest.MultiSourcingRisk_PartScorecard(java.lang.reflect.Method) throws java.io.I...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Pages_Suite" title="Pages.AppTest" class="method navigator-link" hash-for-method="ObsolescenceRisk_PartScorecard(public void Pages.AppTest.ObsolescenceRisk_PartScorecard(java.lang.reflect.Method) throws java.io.IO...)">ObsolescenceRisk_PartScorecard(public void Pages.AppTest.ObsolescenceRisk_PartScorecard(java.lang.reflect.Method) throws java.io.IO...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Pages_Suite" title="Pages.AppTest" class="method navigator-link" hash-for-method="PartScoreExistInOverview(public void Pages.AppTest.PartScoreExistInOverview(java.lang.reflect.Method) throws java.io.IOExcept...)">PartScoreExistInOverview(public void Pages.AppTest.PartScoreExistInOverview(java.lang.reflect.Method) throws java.io.IOExcept...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Pages_Suite" title="Pages.AppTest" class="method navigator-link" hash-for-method="SupplierScoreRisk_PartScorecard(public void Pages.AppTest.SupplierScoreRisk_PartScorecard(java.lang.reflect.Method) throws java.io.I...)">SupplierScoreRisk_PartScorecard(public void Pages.AppTest.SupplierScoreRisk_PartScorecard(java.lang.reflect.Method) throws java.io.I...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Pages_Suite" title="Pages.AppTest" class="method navigator-link" hash-for-method="TechnologyRisk_PartScorecard(public void Pages.AppTest.TechnologyRisk_PartScorecard(java.lang.reflect.Method) throws java.io.IOEx...)">TechnologyRisk_PartScorecard(public void Pages.AppTest.TechnologyRisk_PartScorecard(java.lang.reflect.Method) throws java.io.IOEx...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Pages_Suite" title="Pages.SubmitTicketTest" class="method navigator-link" hash-for-method="Validate_can_Submit_Ticket(public void Pages.SubmitTicketTest.Validate_can_Submit_Ticket(java.lang.reflect.Method) throws java....)">Validate_can_Submit_Ticket(public void Pages.SubmitTicketTest.Validate_can_Submit_Ticket(java.lang.reflect.Method) throws java....)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Pages_Suite" title="Pages.AppTest" class="method navigator-link" hash-for-method="cardComplianceExistInOverview(public void Pages.AppTest.cardComplianceExistInOverview(java.lang.reflect.Method))">cardComplianceExistInOverview(public void Pages.AppTest.cardComplianceExistInOverview(java.lang.reflect.Method))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Pages_Suite" title="Pages.AppTest" class="method navigator-link" hash-for-method="cardMarketAvalibiltyExistInOverview(public void Pages.AppTest.cardMarketAvalibiltyExistInOverview(java.lang.reflect.Method))">cardMarketAvalibiltyExistInOverview(public void Pages.AppTest.cardMarketAvalibiltyExistInOverview(java.lang.reflect.Method))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Pages_Suite" title="Pages.AppTest" class="method navigator-link" hash-for-method="cardMulitSourceExistInOverview(public void Pages.AppTest.cardMulitSourceExistInOverview(java.lang.reflect.Method))">cardMulitSourceExistInOverview(public void Pages.AppTest.cardMulitSourceExistInOverview(java.lang.reflect.Method))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Pages_Suite" title="Pages.AppTest" class="method navigator-link" hash-for-method="cardObsolescenceExistInOverview(public void Pages.AppTest.cardObsolescenceExistInOverview(java.lang.reflect.Method))">cardObsolescenceExistInOverview(public void Pages.AppTest.cardObsolescenceExistInOverview(java.lang.reflect.Method))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Pages_Suite" title="Pages.AppTest" class="method navigator-link" hash-for-method="cardPartScoreExistInOverview(public void Pages.AppTest.cardPartScoreExistInOverview(java.lang.reflect.Method))">cardPartScoreExistInOverview(public void Pages.AppTest.cardPartScoreExistInOverview(java.lang.reflect.Method))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Pages_Suite" title="Pages.AppTest" class="method navigator-link" hash-for-method="cardPartSummaryExistInOverview(public void Pages.AppTest.cardPartSummaryExistInOverview(java.lang.reflect.Method))">cardPartSummaryExistInOverview(public void Pages.AppTest.cardPartSummaryExistInOverview(java.lang.reflect.Method))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Pages_Suite" title="Pages.AppTest" class="method navigator-link" hash-for-method="cardTagsExistInOverview(public void Pages.AppTest.cardTagsExistInOverview(java.lang.reflect.Method))">cardTagsExistInOverview(public void Pages.AppTest.cardTagsExistInOverview(java.lang.reflect.Method))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Pages_Suite" title="Pages.creatAlertTest" class="method navigator-link" hash-for-method="create_Alert_from_Header(public void Pages.creatAlertTest.create_Alert_from_Header(java.lang.reflect.Method) throws java.lang...)">create_Alert_from_Header(public void Pages.creatAlertTest.create_Alert_from_Header(java.lang.reflect.Method) throws java.lang...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Pages_Suite" title="Pages.AppTest" class="method navigator-link" hash-for-method="get_MAN_MPN_Part_Details(public void Pages.AppTest.get_MAN_MPN_Part_Details(java.lang.reflect.Method) throws java.io.IOExcept...)">get_MAN_MPN_Part_Details(public void Pages.AppTest.get_MAN_MPN_Part_Details(java.lang.reflect.Method) throws java.io.IOExcept...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Pages_Suite" title="Pages.AppTest" class="method navigator-link" hash-for-method="get_MPN_Part_Details(public void Pages.AppTest.get_MPN_Part_Details(java.lang.reflect.Method) throws java.io.IOException)">get_MPN_Part_Details(public void Pages.AppTest.get_MPN_Part_Details(java.lang.reflect.Method) throws java.io.IOException)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Pages_Suite" title="Pages.AppTest" class="method navigator-link" hash-for-method="navigateToPartRiskPage(public void Pages.AppTest.navigateToPartRiskPage(java.lang.reflect.Method) throws java.io.IOExceptio...)">navigateToPartRiskPage(public void Pages.AppTest.navigateToPartRiskPage(java.lang.reflect.Method) throws java.io.IOExceptio...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Pages_Suite" title="Pages.uploadBomTest" class="method navigator-link" hash-for-method="uploadBom(public void Pages.uploadBomTest.uploadBom(java.lang.reflect.Method) throws java.lang.InterruptedExce...)">uploadBom(public void Pages.uploadBomTest.uploadBom(java.lang.reflect.Method) throws java.lang.InterruptedExce...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-All_Pages_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-All_Pages_Suite" class="panel All_Pages_Suite">
+          <div class="suite-All_Pages_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Pages.AppTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ComplianceRisk_PartScorecard(public void Pages.AppTest.ComplianceRisk_PartScorecard(java.lang.reflect.Method) throws java.io.IOEx...)">
+                  </a> <!-- ComplianceRisk_PartScorecard(public void Pages.AppTest.ComplianceRisk_PartScorecard(java.lang.reflect.Method) throws java.io.IOEx...) -->
+                  <span class="method-name">ComplianceRisk_PartScorecard</span>
+                  <span class="parameters">(public void Pages.AppTest.ComplianceRisk_PartScorecard(java.lang.reflect.Method) throws java.io.IOException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MarketRisk_PartScorecard(public void Pages.AppTest.MarketRisk_PartScorecard(java.lang.reflect.Method) throws java.io.IOExcept...)">
+                  </a> <!-- MarketRisk_PartScorecard(public void Pages.AppTest.MarketRisk_PartScorecard(java.lang.reflect.Method) throws java.io.IOExcept...) -->
+                  <span class="method-name">MarketRisk_PartScorecard</span>
+                  <span class="parameters">(public void Pages.AppTest.MarketRisk_PartScorecard(java.lang.reflect.Method) throws java.io.IOException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MultiSourcingRisk_PartScorecard(public void Pages.AppTest.MultiSourcingRisk_PartScorecard(java.lang.reflect.Method) throws java.io.I...)">
+                  </a> <!-- MultiSourcingRisk_PartScorecard(public void Pages.AppTest.MultiSourcingRisk_PartScorecard(java.lang.reflect.Method) throws java.io.I...) -->
+                  <span class="method-name">MultiSourcingRisk_PartScorecard</span>
+                  <span class="parameters">(public void Pages.AppTest.MultiSourcingRisk_PartScorecard(java.lang.reflect.Method) throws java.io.IOException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ObsolescenceRisk_PartScorecard(public void Pages.AppTest.ObsolescenceRisk_PartScorecard(java.lang.reflect.Method) throws java.io.IO...)">
+                  </a> <!-- ObsolescenceRisk_PartScorecard(public void Pages.AppTest.ObsolescenceRisk_PartScorecard(java.lang.reflect.Method) throws java.io.IO...) -->
+                  <span class="method-name">ObsolescenceRisk_PartScorecard</span>
+                  <span class="parameters">(public void Pages.AppTest.ObsolescenceRisk_PartScorecard(java.lang.reflect.Method) throws java.io.IOException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PartScoreExistInOverview(public void Pages.AppTest.PartScoreExistInOverview(java.lang.reflect.Method) throws java.io.IOExcept...)">
+                  </a> <!-- PartScoreExistInOverview(public void Pages.AppTest.PartScoreExistInOverview(java.lang.reflect.Method) throws java.io.IOExcept...) -->
+                  <span class="method-name">PartScoreExistInOverview</span>
+                  <span class="parameters">(public void Pages.AppTest.PartScoreExistInOverview(java.lang.reflect.Method) throws java.io.IOException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SupplierScoreRisk_PartScorecard(public void Pages.AppTest.SupplierScoreRisk_PartScorecard(java.lang.reflect.Method) throws java.io.I...)">
+                  </a> <!-- SupplierScoreRisk_PartScorecard(public void Pages.AppTest.SupplierScoreRisk_PartScorecard(java.lang.reflect.Method) throws java.io.I...) -->
+                  <span class="method-name">SupplierScoreRisk_PartScorecard</span>
+                  <span class="parameters">(public void Pages.AppTest.SupplierScoreRisk_PartScorecard(java.lang.reflect.Method) throws java.io.IOException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TechnologyRisk_PartScorecard(public void Pages.AppTest.TechnologyRisk_PartScorecard(java.lang.reflect.Method) throws java.io.IOEx...)">
+                  </a> <!-- TechnologyRisk_PartScorecard(public void Pages.AppTest.TechnologyRisk_PartScorecard(java.lang.reflect.Method) throws java.io.IOEx...) -->
+                  <span class="method-name">TechnologyRisk_PartScorecard</span>
+                  <span class="parameters">(public void Pages.AppTest.TechnologyRisk_PartScorecard(java.lang.reflect.Method) throws java.io.IOException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cardComplianceExistInOverview(public void Pages.AppTest.cardComplianceExistInOverview(java.lang.reflect.Method))">
+                  </a> <!-- cardComplianceExistInOverview(public void Pages.AppTest.cardComplianceExistInOverview(java.lang.reflect.Method)) -->
+                  <span class="method-name">cardComplianceExistInOverview</span>
+                  <span class="parameters">(public void Pages.AppTest.cardComplianceExistInOverview(java.lang.reflect.Method))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cardMarketAvalibiltyExistInOverview(public void Pages.AppTest.cardMarketAvalibiltyExistInOverview(java.lang.reflect.Method))">
+                  </a> <!-- cardMarketAvalibiltyExistInOverview(public void Pages.AppTest.cardMarketAvalibiltyExistInOverview(java.lang.reflect.Method)) -->
+                  <span class="method-name">cardMarketAvalibiltyExistInOverview</span>
+                  <span class="parameters">(public void Pages.AppTest.cardMarketAvalibiltyExistInOverview(java.lang.reflect.Method))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cardMulitSourceExistInOverview(public void Pages.AppTest.cardMulitSourceExistInOverview(java.lang.reflect.Method))">
+                  </a> <!-- cardMulitSourceExistInOverview(public void Pages.AppTest.cardMulitSourceExistInOverview(java.lang.reflect.Method)) -->
+                  <span class="method-name">cardMulitSourceExistInOverview</span>
+                  <span class="parameters">(public void Pages.AppTest.cardMulitSourceExistInOverview(java.lang.reflect.Method))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cardObsolescenceExistInOverview(public void Pages.AppTest.cardObsolescenceExistInOverview(java.lang.reflect.Method))">
+                  </a> <!-- cardObsolescenceExistInOverview(public void Pages.AppTest.cardObsolescenceExistInOverview(java.lang.reflect.Method)) -->
+                  <span class="method-name">cardObsolescenceExistInOverview</span>
+                  <span class="parameters">(public void Pages.AppTest.cardObsolescenceExistInOverview(java.lang.reflect.Method))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cardPartScoreExistInOverview(public void Pages.AppTest.cardPartScoreExistInOverview(java.lang.reflect.Method))">
+                  </a> <!-- cardPartScoreExistInOverview(public void Pages.AppTest.cardPartScoreExistInOverview(java.lang.reflect.Method)) -->
+                  <span class="method-name">cardPartScoreExistInOverview</span>
+                  <span class="parameters">(public void Pages.AppTest.cardPartScoreExistInOverview(java.lang.reflect.Method))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cardPartSummaryExistInOverview(public void Pages.AppTest.cardPartSummaryExistInOverview(java.lang.reflect.Method))">
+                  </a> <!-- cardPartSummaryExistInOverview(public void Pages.AppTest.cardPartSummaryExistInOverview(java.lang.reflect.Method)) -->
+                  <span class="method-name">cardPartSummaryExistInOverview</span>
+                  <span class="parameters">(public void Pages.AppTest.cardPartSummaryExistInOverview(java.lang.reflect.Method))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cardTagsExistInOverview(public void Pages.AppTest.cardTagsExistInOverview(java.lang.reflect.Method))">
+                  </a> <!-- cardTagsExistInOverview(public void Pages.AppTest.cardTagsExistInOverview(java.lang.reflect.Method)) -->
+                  <span class="method-name">cardTagsExistInOverview</span>
+                  <span class="parameters">(public void Pages.AppTest.cardTagsExistInOverview(java.lang.reflect.Method))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_MAN_MPN_Part_Details(public void Pages.AppTest.get_MAN_MPN_Part_Details(java.lang.reflect.Method) throws java.io.IOExcept...)">
+                  </a> <!-- get_MAN_MPN_Part_Details(public void Pages.AppTest.get_MAN_MPN_Part_Details(java.lang.reflect.Method) throws java.io.IOExcept...) -->
+                  <span class="method-name">get_MAN_MPN_Part_Details</span>
+                  <span class="parameters">(public void Pages.AppTest.get_MAN_MPN_Part_Details(java.lang.reflect.Method) throws java.io.IOException,java.lang.InterruptedException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_MPN_Part_Details(public void Pages.AppTest.get_MPN_Part_Details(java.lang.reflect.Method) throws java.io.IOException)">
+                  </a> <!-- get_MPN_Part_Details(public void Pages.AppTest.get_MPN_Part_Details(java.lang.reflect.Method) throws java.io.IOException) -->
+                  <span class="method-name">get_MPN_Part_Details</span>
+                  <span class="parameters">(public void Pages.AppTest.get_MPN_Part_Details(java.lang.reflect.Method) throws java.io.IOException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateToPartRiskPage(public void Pages.AppTest.navigateToPartRiskPage(java.lang.reflect.Method) throws java.io.IOExceptio...)">
+                  </a> <!-- navigateToPartRiskPage(public void Pages.AppTest.navigateToPartRiskPage(java.lang.reflect.Method) throws java.io.IOExceptio...) -->
+                  <span class="method-name">navigateToPartRiskPage</span>
+                  <span class="parameters">(public void Pages.AppTest.navigateToPartRiskPage(java.lang.reflect.Method) throws java.io.IOException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Pages_Suite-class-passed -->
+          <div class="suite-All_Pages_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Pages.uploadBomTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="uploadBom(public void Pages.uploadBomTest.uploadBom(java.lang.reflect.Method) throws java.lang.InterruptedExce...)">
+                  </a> <!-- uploadBom(public void Pages.uploadBomTest.uploadBom(java.lang.reflect.Method) throws java.lang.InterruptedExce...) -->
+                  <span class="method-name">uploadBom</span>
+                  <span class="parameters">(public void Pages.uploadBomTest.uploadBom(java.lang.reflect.Method) throws java.lang.InterruptedException,java.awt.AWTException,java.io.IOException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Pages_Suite-class-passed -->
+          <div class="suite-All_Pages_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Pages.SubmitTicketTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validate_can_Submit_Ticket(public void Pages.SubmitTicketTest.Validate_can_Submit_Ticket(java.lang.reflect.Method) throws java....)">
+                  </a> <!-- Validate_can_Submit_Ticket(public void Pages.SubmitTicketTest.Validate_can_Submit_Ticket(java.lang.reflect.Method) throws java....) -->
+                  <span class="method-name">Validate_can_Submit_Ticket</span>
+                  <span class="parameters">(public void Pages.SubmitTicketTest.Validate_can_Submit_Ticket(java.lang.reflect.Method) throws java.awt.AWTException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Pages_Suite-class-passed -->
+          <div class="suite-All_Pages_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Pages.creatAlertTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="create_Alert_from_Header(public void Pages.creatAlertTest.create_Alert_from_Header(java.lang.reflect.Method) throws java.lang...)">
+                  </a> <!-- create_Alert_from_Header(public void Pages.creatAlertTest.create_Alert_from_Header(java.lang.reflect.Method) throws java.lang...) -->
+                  <span class="method-name">create_Alert_from_Header</span>
+                  <span class="parameters">(public void Pages.creatAlertTest.create_Alert_from_Header(java.lang.reflect.Method) throws java.lang.InterruptedException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Pages_Suite-class-passed -->
+        </div> <!-- panel All_Pages_Suite -->
+        <div panel-name="test-xml-All_Pages_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\ahmed.mahdy\Downloads\com.demo.selenium-master\Excel\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;All Pages Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;retryAnalyzer.RetryTransformer&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;com.Orang&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;https://test1.z2data.com/&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Pages.configTest&quot;/&gt;
+      &lt;class name=&quot;Pages.AppTest&quot;/&gt;
+      &lt;class name=&quot;Pages.uploadBomTest&quot;/&gt;
+      &lt;class name=&quot;Pages.creatAlertTest&quot;/&gt;
+      &lt;class name=&quot;Pages.SubmitTicketTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- com.Orang --&gt;
+&lt;/suite&gt; &lt;!-- All Pages Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-All_Pages_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for All Pages Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">com.Orang (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-All_Pages_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for All Pages Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-All_Pages_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for All Pages Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_All_Pages_Suite');
+function tableData_All_Pages_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'uploadBom')
+data.setCell(0, 2, 'Pages.uploadBomTest')
+data.setCell(0, 3, 59916);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'create_Alert_from_Header')
+data.setCell(1, 2, 'Pages.creatAlertTest')
+data.setCell(1, 3, 12056);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'get_MAN_MPN_Part_Details')
+data.setCell(2, 2, 'Pages.AppTest')
+data.setCell(2, 3, 4101);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Validate_can_Submit_Ticket')
+data.setCell(3, 2, 'Pages.SubmitTicketTest')
+data.setCell(3, 3, 4018);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'navigateToPartRiskPage')
+data.setCell(4, 2, 'Pages.AppTest')
+data.setCell(4, 3, 2545);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'cardMulitSourceExistInOverview')
+data.setCell(5, 2, 'Pages.AppTest')
+data.setCell(5, 3, 2173);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'cardObsolescenceExistInOverview')
+data.setCell(6, 2, 'Pages.AppTest')
+data.setCell(6, 3, 159);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'MarketRisk_PartScorecard')
+data.setCell(7, 2, 'Pages.AppTest')
+data.setCell(7, 3, 93);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'ObsolescenceRisk_PartScorecard')
+data.setCell(8, 2, 'Pages.AppTest')
+data.setCell(8, 3, 92);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'MultiSourcingRisk_PartScorecard')
+data.setCell(9, 2, 'Pages.AppTest')
+data.setCell(9, 3, 81);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'TechnologyRisk_PartScorecard')
+data.setCell(10, 2, 'Pages.AppTest')
+data.setCell(10, 3, 79);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'PartScoreExistInOverview')
+data.setCell(11, 2, 'Pages.AppTest')
+data.setCell(11, 3, 77);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'cardComplianceExistInOverview')
+data.setCell(12, 2, 'Pages.AppTest')
+data.setCell(12, 3, 76);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'cardTagsExistInOverview')
+data.setCell(13, 2, 'Pages.AppTest')
+data.setCell(13, 3, 72);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'ComplianceRisk_PartScorecard')
+data.setCell(14, 2, 'Pages.AppTest')
+data.setCell(14, 3, 63);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'cardMarketAvalibiltyExistInOverview')
+data.setCell(15, 2, 'Pages.AppTest')
+data.setCell(15, 3, 59);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'cardPartScoreExistInOverview')
+data.setCell(16, 2, 'Pages.AppTest')
+data.setCell(16, 3, 56);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'SupplierScoreRisk_PartScorecard')
+data.setCell(17, 2, 'Pages.AppTest')
+data.setCell(17, 3, 54);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'cardPartSummaryExistInOverview')
+data.setCell(18, 2, 'Pages.AppTest')
+data.setCell(18, 3, 53);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'get_MPN_Part_Details')
+data.setCell(19, 2, 'Pages.AppTest')
+data.setCell(19, 3, 52);
+window.suiteTableData['All_Pages_Suite']= { tableData: data, tableDiv: 'times-div-All_Pages_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-All_Pages_Suite">
+              </div> <!-- times-div-All_Pages_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-All_Pages_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for All Pages Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-All_Pages_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Pages.AppTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">getHeader</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-All_Pages_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Pages.configTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setExtent</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Pages.AppTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome, https://test1.z2data.com/, null)</span>
+                <span class="method-start">234 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">start(public void Pages.AppTest.navigateToPartRiskPage(java.lang.reflect.Method) throws java.io.IOExceptio...)</span>
+                <span class="method-start">18226 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">navigateToPartRiskPage(public void Pages.AppTest.navigateToPartRiskPage(java.lang.reflect.Method) throws java.io.IOExceptio...)</span>
+                <span class="method-start">18231 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=navigateToPartRiskPage status=SUCCESS method=AppTest.navigateToPartRiskPage(java.la...)</span>
+                <span class="method-start">20778 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start(public void Pages.AppTest.get_MAN_MPN_Part_Details(java.lang.reflect.Method) throws java.io.IOExcept...)</span>
+                <span class="method-start">21047 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">get_MAN_MPN_Part_Details(public void Pages.AppTest.get_MAN_MPN_Part_Details(java.lang.reflect.Method) throws java.io.IOExcept...)</span>
+                <span class="method-start">21047 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=get_MAN_MPN_Part_Details status=SUCCESS method=AppTest.get_MAN_MPN_Part_Details(jav...)</span>
+                <span class="method-start">25148 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start(public void Pages.AppTest.get_MPN_Part_Details(java.lang.reflect.Method) throws java.io.IOException)</span>
+                <span class="method-start">25394 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">get_MPN_Part_Details(public void Pages.AppTest.get_MPN_Part_Details(java.lang.reflect.Method) throws java.io.IOException)</span>
+                <span class="method-start">25395 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=get_MPN_Part_Details status=SUCCESS method=AppTest.get_MPN_Part_Details(java.lang.r...)</span>
+                <span class="method-start">25447 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start(public void Pages.AppTest.cardTagsExistInOverview(java.lang.reflect.Method))</span>
+                <span class="method-start">25727 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cardTagsExistInOverview(public void Pages.AppTest.cardTagsExistInOverview(java.lang.reflect.Method))</span>
+                <span class="method-start">25727 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=cardTagsExistInOverview status=SUCCESS method=AppTest.cardTagsExistInOverview(java....)</span>
+                <span class="method-start">25799 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start(public void Pages.AppTest.cardPartScoreExistInOverview(java.lang.reflect.Method))</span>
+                <span class="method-start">26038 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cardPartScoreExistInOverview(public void Pages.AppTest.cardPartScoreExistInOverview(java.lang.reflect.Method))</span>
+                <span class="method-start">26038 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=cardPartScoreExistInOverview status=SUCCESS method=AppTest.cardPartScoreExistInOver...)</span>
+                <span class="method-start">26095 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start(public void Pages.AppTest.cardObsolescenceExistInOverview(java.lang.reflect.Method))</span>
+                <span class="method-start">26283 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cardObsolescenceExistInOverview(public void Pages.AppTest.cardObsolescenceExistInOverview(java.lang.reflect.Method))</span>
+                <span class="method-start">26283 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=cardObsolescenceExistInOverview status=SUCCESS method=AppTest.cardObsolescenceExist...)</span>
+                <span class="method-start">26443 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start(public void Pages.AppTest.cardPartSummaryExistInOverview(java.lang.reflect.Method))</span>
+                <span class="method-start">26701 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cardPartSummaryExistInOverview(public void Pages.AppTest.cardPartSummaryExistInOverview(java.lang.reflect.Method))</span>
+                <span class="method-start">26701 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=cardPartSummaryExistInOverview status=SUCCESS method=AppTest.cardPartSummaryExistIn...)</span>
+                <span class="method-start">26754 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start(public void Pages.AppTest.cardComplianceExistInOverview(java.lang.reflect.Method))</span>
+                <span class="method-start">26951 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cardComplianceExistInOverview(public void Pages.AppTest.cardComplianceExistInOverview(java.lang.reflect.Method))</span>
+                <span class="method-start">26951 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=cardComplianceExistInOverview status=SUCCESS method=AppTest.cardComplianceExistInOv...)</span>
+                <span class="method-start">27027 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start(public void Pages.AppTest.cardMarketAvalibiltyExistInOverview(java.lang.reflect.Method))</span>
+                <span class="method-start">27248 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cardMarketAvalibiltyExistInOverview(public void Pages.AppTest.cardMarketAvalibiltyExistInOverview(java.lang.reflect.Method))</span>
+                <span class="method-start">27248 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=cardMarketAvalibiltyExistInOverview status=SUCCESS method=AppTest.cardMarketAvalibi...)</span>
+                <span class="method-start">27307 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start(public void Pages.AppTest.cardMulitSourceExistInOverview(java.lang.reflect.Method))</span>
+                <span class="method-start">27515 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cardMulitSourceExistInOverview(public void Pages.AppTest.cardMulitSourceExistInOverview(java.lang.reflect.Method))</span>
+                <span class="method-start">27515 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=cardMulitSourceExistInOverview status=SUCCESS method=AppTest.cardMulitSourceExistIn...)</span>
+                <span class="method-start">29689 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start(public void Pages.AppTest.PartScoreExistInOverview(java.lang.reflect.Method) throws java.io.IOExcept...)</span>
+                <span class="method-start">29907 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PartScoreExistInOverview(public void Pages.AppTest.PartScoreExistInOverview(java.lang.reflect.Method) throws java.io.IOExcept...)</span>
+                <span class="method-start">29907 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=PartScoreExistInOverview status=SUCCESS method=AppTest.PartScoreExistInOverview(jav...)</span>
+                <span class="method-start">29984 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start(public void Pages.AppTest.ObsolescenceRisk_PartScorecard(java.lang.reflect.Method) throws java.io.IO...)</span>
+                <span class="method-start">30218 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ObsolescenceRisk_PartScorecard(public void Pages.AppTest.ObsolescenceRisk_PartScorecard(java.lang.reflect.Method) throws java.io.IO...)</span>
+                <span class="method-start">30218 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ObsolescenceRisk_PartScorecard status=SUCCESS method=AppTest.ObsolescenceRisk_PartS...)</span>
+                <span class="method-start">30310 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start(public void Pages.AppTest.ComplianceRisk_PartScorecard(java.lang.reflect.Method) throws java.io.IOEx...)</span>
+                <span class="method-start">30546 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ComplianceRisk_PartScorecard(public void Pages.AppTest.ComplianceRisk_PartScorecard(java.lang.reflect.Method) throws java.io.IOEx...)</span>
+                <span class="method-start">30546 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ComplianceRisk_PartScorecard status=SUCCESS method=AppTest.ComplianceRisk_PartScore...)</span>
+                <span class="method-start">30609 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start(public void Pages.AppTest.MarketRisk_PartScorecard(java.lang.reflect.Method) throws java.io.IOExcept...)</span>
+                <span class="method-start">30828 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">MarketRisk_PartScorecard(public void Pages.AppTest.MarketRisk_PartScorecard(java.lang.reflect.Method) throws java.io.IOExcept...)</span>
+                <span class="method-start">30828 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=MarketRisk_PartScorecard status=SUCCESS method=AppTest.MarketRisk_PartScorecard(jav...)</span>
+                <span class="method-start">30921 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start(public void Pages.AppTest.TechnologyRisk_PartScorecard(java.lang.reflect.Method) throws java.io.IOEx...)</span>
+                <span class="method-start">31124 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TechnologyRisk_PartScorecard(public void Pages.AppTest.TechnologyRisk_PartScorecard(java.lang.reflect.Method) throws java.io.IOEx...)</span>
+                <span class="method-start">31124 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TechnologyRisk_PartScorecard status=SUCCESS method=AppTest.TechnologyRisk_PartScore...)</span>
+                <span class="method-start">31203 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start(public void Pages.AppTest.MultiSourcingRisk_PartScorecard(java.lang.reflect.Method) throws java.io.I...)</span>
+                <span class="method-start">31421 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">MultiSourcingRisk_PartScorecard(public void Pages.AppTest.MultiSourcingRisk_PartScorecard(java.lang.reflect.Method) throws java.io.I...)</span>
+                <span class="method-start">31421 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=MultiSourcingRisk_PartScorecard status=SUCCESS method=AppTest.MultiSourcingRisk_Par...)</span>
+                <span class="method-start">31502 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start(public void Pages.AppTest.SupplierScoreRisk_PartScorecard(java.lang.reflect.Method) throws java.io.I...)</span>
+                <span class="method-start">31749 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SupplierScoreRisk_PartScorecard(public void Pages.AppTest.SupplierScoreRisk_PartScorecard(java.lang.reflect.Method) throws java.io.I...)</span>
+                <span class="method-start">31749 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=SupplierScoreRisk_PartScorecard status=SUCCESS method=AppTest.SupplierScoreRisk_Par...)</span>
+                <span class="method-start">31803 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">32046 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Pages.uploadBomTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome, https://test1.z2data.com/, null)</span>
+                <span class="method-start">33968 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">start(public void Pages.uploadBomTest.uploadBom(java.lang.reflect.Method) throws java.lang.InterruptedExce...)</span>
+                <span class="method-start">49450 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">uploadBom(public void Pages.uploadBomTest.uploadBom(java.lang.reflect.Method) throws java.lang.InterruptedExce...)</span>
+                <span class="method-start">49450 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=uploadBom status=SUCCESS method=uploadBomTest.uploadBom(java.lang.reflect.Method)[p...)</span>
+                <span class="method-start">109367 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">110178 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Pages.creatAlertTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome, https://test1.z2data.com/, null)</span>
+                <span class="method-start">111390 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">start(public void Pages.creatAlertTest.create_Alert_from_Header(java.lang.reflect.Method) throws java.lang...)</span>
+                <span class="method-start">129178 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">create_Alert_from_Header(public void Pages.creatAlertTest.create_Alert_from_Header(java.lang.reflect.Method) throws java.lang...)</span>
+                <span class="method-start">129178 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=create_Alert_from_Header status=SUCCESS method=creatAlertTest.create_Alert_from_Hea...)</span>
+                <span class="method-start">141234 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">141408 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Pages.SubmitTicketTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome, https://test1.z2data.com/, null)</span>
+                <span class="method-start">142547 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">start(public void Pages.SubmitTicketTest.Validate_can_Submit_Ticket(java.lang.reflect.Method) throws java....)</span>
+                <span class="method-start">158632 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Validate_can_Submit_Ticket(public void Pages.SubmitTicketTest.Validate_can_Submit_Ticket(java.lang.reflect.Method) throws java....)</span>
+                <span class="method-start">158632 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Validate_can_Submit_Ticket status=SUCCESS method=SubmitTicketTest.Validate_can_Subm...)</span>
+                <span class="method-start">162651 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">162962 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Pages.configTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">endReport</span>
+                <span class="method-start">164484 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

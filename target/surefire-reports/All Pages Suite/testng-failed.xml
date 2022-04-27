@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Pages Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="retryAnalyzer.RetryTransformer"/>
+  </listeners>
+  <test thread-count="5" name="com.Orang(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://test1.z2data.com/"/>
+    <classes>
+      <class name="Pages.uploadBomTest">
+        <methods>
+          <include name="uploadBom" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- Pages.uploadBomTest -->
+    </classes>
+  </test> <!-- com.Orang(failed) -->
+</suite> <!-- Failed suite [All Pages Suite] -->
