@@ -27,7 +27,6 @@ public class Vod_search extends BaseTest {
         searchpage.get_title_under_video();
         String title_videopage1 = searchpage.get_title_under_video();
         System.out.println("second title" +title_videopage1);
-        Thread.sleep(10000);
         Assert.assertEquals(title_searchpage1,title_videopage1);
     }
     @Test(priority = 2)
@@ -45,7 +44,7 @@ public class Vod_search extends BaseTest {
         searchpage.get_title_under_video();
         String title_videopage2 = searchpage.get_title_under_video();
         System.out.println("second title" +title_videopage2);
-        Thread.sleep(10000);
+      
         Assert.assertEquals(title_searchpage2,title_videopage2);
     }
     @Test(priority = 3)
@@ -62,8 +61,7 @@ public class Vod_search extends BaseTest {
         searchpage.get_title_under_video();
         String title_videopage3 = searchpage.get_title_under_video();
         System.out.println("second title" +title_videopage3);
-        Thread.sleep(10000);
-
+      
         Assert.assertEquals(title_searchpage3,title_videopage3);
     }
 }
